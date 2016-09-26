@@ -7,12 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= link_to "EtsyDemo", listings_path %>
-<%= link_to "About", pages_about_path %>
-<%= link_to "Contact", pages_contact_path %>
 
-<%= yield %>
-<p>Copyright 2013</p>
+<%= render 'layouts/header' %>
 
+<div class="container">
+
+	<%= link_to "EtsyDemo", listings_path %>
+	<%= link_to "About", pages_about_path %>
+	<%= link_to "Contact", pages_contact_path %>
+
+	<%= yield %>
+
+	<% render 'layouts/footer' %>
+</div>
 </body>
 </html>
