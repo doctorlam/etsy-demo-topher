@@ -1133,3 +1133,1558 @@ Processing by ListingsController#index as HTML
   Rendered layouts/_header.html.erb (0.0ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 97ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings" for ::1 at 2016-09-26 16:01:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 338ms (Views: 326.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:01:45 -0500
+
+
+Started GET "/listings" for ::1 at 2016-09-26 16:01:47 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 104ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:01:47 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:01:48 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:01:48 -0500
+
+
+Started GET "/listings" for ::1 at 2016-09-26 16:02:54 -0500
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (1.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 96.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:02:54 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:02:54 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:02:54 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:02:54 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:02:55 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:02:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:02:55 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:02:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:02:55 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:02:55 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:02:55 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:02:55 -0500
+
+
+Started GET "/listings" for ::1 at 2016-09-26 16:02:55 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (1.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 96ms (Views: 94.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:02:56 -0500
+
+
+Started GET "/pages/about" for ::1 at 2016-09-26 16:02:56 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 110ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:02:57 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 105ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings" for ::1 at 2016-09-26 16:02:57 -0500
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 91ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-26 16:02:58 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 104ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:02:58 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 101ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings" for ::1 at 2016-09-26 16:02:59 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 106ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-26 16:03:00 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 113ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:03:00 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 108ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:05:14 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 89ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:05:14 -0500
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:07:01 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 92ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:07:01 -0500
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:07:02 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 95ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:07:02 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:07:03 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 95ms (Views: 94.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:07:03 -0500
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:07:04 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:07:04 -0500
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:08:31 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-26 16:08:31 -0500
+
+
+Started GET "/pages/about" for ::1 at 2016-09-26 16:08:33 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:08:33 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-26 16:08:34 -0500
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-26 16:08:35 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 95ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:08:35 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 97ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-26 16:08:35 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-26 16:08:35 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-26 16:08:36 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 101ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-26 16:08:36 -0500
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (1.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:19:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 846ms (Views: 833.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:19:08 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 11:19:08 -0500
+
+
+Started GET "/pages/about" for ::1 at 2016-09-28 11:19:09 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-28 11:19:10 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-28 11:19:10 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:19:12 -0500
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-28 11:19:12 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-28 11:19:12 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-28 11:19:13 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:19:14 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttachmentImageToListings (20160928163107)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (26.0ms)[0m  [1mALTER TABLE "listings" ADD "image_file_name" varchar[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "listings" ADD "image_content_type" varchar
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "listings" ADD "image_file_size" integer[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "listings" ADD "image_updated_at" datetime
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160928163107"]]
+  [1m[35m (105.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2016-09-28 11:37:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `before_avatar_post_process' for #<Class:0x58ff440>):
+  app/models/listing.rb:3:in `<class:Listing>'
+  app/models/listing.rb:1:in `<top (required)>'
+  app/controllers/listings_controller.rb:7:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (367.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:38:33 -0500
+Processing by ListingsController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `before_avatar_post_process' for #<Class:0x516edf0>):
+  app/models/listing.rb:3:in `<class:Listing>'
+  app/models/listing.rb:1:in `<top (required)>'
+  app/controllers/listings_controller.rb:7:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (363.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:38:35 -0500
+Processing by ListingsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `before_avatar_post_process' for #<Class:0x56a2c10>):
+  app/models/listing.rb:3:in `<class:Listing>'
+  app/models/listing.rb:1:in `<top (required)>'
+  app/controllers/listings_controller.rb:7:in `index'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (363.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-28 11:39:13 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 391ms (Views: 379.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for 127.0.0.1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:39:13 -0500
+
+
+Started GET "/" for ::1 at 2016-09-28 11:41:28 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 11:41:28 -0500
+
+
+Started GET "/" for ::1 at 2016-09-28 11:41:30 -0500
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:41:30 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 11:41:30 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 11:41:31 -0500
+
+
+Started GET "/" for ::1 at 2016-09-28 11:41:32 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 11:41:32 -0500
+
+
+Started GET "/listings/2/edit" for ::1 at 2016-09-28 11:41:42 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered listings/_form.html.erb (81.0ms)
+  Rendered listings/edit.html.erb within layouts/application (86.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 178ms (Views: 148.7ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 11:43:31 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YXhUzAeLK6oh0rs1f+u9JNpgbvMkR0gmvDZG1gV9Q0K6sHacnv2+3RrAtFAx8nUoV2Aczg0pmj43/1RH3tHoWA==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x9269c28 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-3656-tp941l.png>, @original_filename="pillows.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillows.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[36mListing Load (1.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/9243d69ddeac95adbf19a0da14bf9af020160928-3656-1etwjg7.png"
+[paperclip] Content Type Spoof: Filename pillows.png (image/png from Headers, ["image/png"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/9243d69ddeac95adbf19a0da14bf9af020160928-3656-18l74sj.png"
+[paperclip] Content Type Spoof: Filename pillows.png (image/png from Headers, ["image/png"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered listings/_form.html.erb (2.0ms)
+  Rendered listings/edit.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 83ms (Views: 63.8ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 11:43:42 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HNOWDYDuD2awagjzimfayheYoB3hVGn/FEt1AHCvLQ7HG7RdGZiaEYt4B5bEfhLGmpjSIMg6u+efgmeRqwOGFA==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x8b19508 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-3656-1jdh4mo.png>, @original_filename="pillows.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillows.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/9243d69ddeac95adbf19a0da14bf9af020160928-3656-119pxep.png"
+[paperclip] Content Type Spoof: Filename pillows.png (image/png from Headers, ["image/png"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/9243d69ddeac95adbf19a0da14bf9af020160928-3656-poncvo.png"
+[paperclip] Content Type Spoof: Filename pillows.png (image/png from Headers, ["image/png"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (2.0ms)
+  Rendered listings/edit.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 85ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings/2" for ::1 at 2016-09-28 11:53:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mListing Load (1.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered listings/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 265ms (Views: 243.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 11:53:21 -0500
+
+
+Started GET "/listings/2/edit" for ::1 at 2016-09-28 11:53:23 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered listings/_form.html.erb (17.0ms)
+  Rendered listings/edit.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 97ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 11:53:27 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9NljSftJwcMe3n5D9w4YduOS8rCUCab1sRyp3jNIUE8vEUEZYj9UtCXMcSa5F9B6bpKAjb1ndO061btP6OT7VQ==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x92933e8 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-3676-rixhi4.png>, @original_filename="pillows.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillows.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/9243d69ddeac95adbf19a0da14bf9af020160928-3676-e7wkyh.png"
+[paperclip] Content Type Spoof: Filename pillows.png (image/png from Headers, ["image/png"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/9243d69ddeac95adbf19a0da14bf9af020160928-3676-11byjtw.png"
+[paperclip] Content Type Spoof: Filename pillows.png (image/png from Headers, ["image/png"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (2.0ms)
+  Rendered listings/edit.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 100ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 11:55:50 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rf8zsR/TUa/zSq17DqcSLcwGapYBsl7F0JDW8RjqK2KeNxHhhqXE2MhYoh5AvtohQQYYqyjcjN1bWcRgw0aAeA==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x8d43920 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-3676-wvbcdv.jpg>, @original_filename="pillow.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillow.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/028dbbfa273d4b792baf487492f43a5d20160928-3676-dgq3st.jpg"
+[paperclip] Content Type Spoof: Filename pillow.jpg (image/jpeg from Headers, ["image/jpeg"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/028dbbfa273d4b792baf487492f43a5d20160928-3676-57l384.jpg"
+[paperclip] Content Type Spoof: Filename pillow.jpg (image/jpeg from Headers, ["image/jpeg"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered listings/_form.html.erb (1.0ms)
+  Rendered listings/edit.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 82ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 11:55:52 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beIFb+IuwtO2G7IqeYmHR6I8TwIEzFNYsyODmkhbtJO2Kic/e1hXpI0JvU83kE9LLzw9Py2igUA46pELk/cfiQ==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95"}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/listings/2
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/listings/2" for ::1 at 2016-09-28 11:55:52 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered listings/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:55:55 -0500
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-28 11:55:56 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2016-09-28 11:55:57 -0500
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-09-28 11:55:58 -0500
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:55:58 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:57:39 -0500
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 11:57:39 -0500
+
+
+Started GET "/listings/2/edit" for ::1 at 2016-09-28 11:57:43 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered listings/_form.html.erb (2.0ms)
+  Rendered listings/edit.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings/2" for ::1 at 2016-09-28 11:57:50 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered listings/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/NotFound-681e13883db3086ad0a48a093b51c149f1666f3af972236ecb65257b53411b98.png" for ::1 at 2016-09-28 11:57:50 -0500
+
+
+Started GET "/listings/2/edit" for ::1 at 2016-09-28 11:58:02 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered listings/_form.html.erb (1.0ms)
+  Rendered listings/edit.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 11:58:06 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zkf8GbNow0xGBERjF1qX/9PCagN5tbShfrD3AlN9jLwVj95JKh5WO30WSwZZQ1/zXsIYPlDbZrn1eeWTiNEnpg==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x9356f88 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-3676-1x5wgk1.jpg>, @original_filename="pillow.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillow.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/028dbbfa273d4b792baf487492f43a5d20160928-3676-oanai0.jpg"
+[paperclip] Content Type Spoof: Filename pillow.jpg (image/jpeg from Headers, ["image/jpeg"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/028dbbfa273d4b792baf487492f43a5d20160928-3676-10m80gs.jpg"
+[paperclip] Content Type Spoof: Filename pillow.jpg (image/jpeg from Headers, ["image/jpeg"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (2.0ms)
+  Rendered listings/edit.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-28 11:59:15 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings/2" for ::1 at 2016-09-28 11:59:16 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered listings/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-28 11:59:58 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.0ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 259ms (Views: 247.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for 127.0.0.1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 11:59:58 -0500
+
+
+Started GET "/listings/2" for ::1 at 2016-09-28 12:00:00 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered listings/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 90ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings/2" for ::1 at 2016-09-28 12:01:03 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered listings/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 58.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/assets/NotFound-681e13883db3086ad0a48a093b51c149f1666f3af972236ecb65257b53411b98.png" for ::1 at 2016-09-28 12:01:03 -0500
+
+
+Started GET "/listings/2" for ::1 at 2016-09-28 12:01:04 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered listings/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/assets/NotFound-681e13883db3086ad0a48a093b51c149f1666f3af972236ecb65257b53411b98.png" for ::1 at 2016-09-28 12:01:04 -0500
+
+
+Started GET "/listings/2/edit" for ::1 at 2016-09-28 12:01:05 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered listings/_form.html.erb (17.0ms)
+  Rendered listings/edit.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 12:01:10 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OMcKmpoa3UMxlPdP58ZWfcOkAA/rvVVOXEfS4aGD5V3jDyjKA2xINAqG+Cqp355xTqRyMsLTh1bXjsBwei9ORw==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x8bf0e78 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-5184-qhqvsq.jpg>, @original_filename="pillow.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillow.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  app/controllers/listings_controller.rb:44:in `block in update'
+  app/controllers/listings_controller.rb:43:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (362.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 12:01:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OMcKmpoa3UMxlPdP58ZWfcOkAA/rvVVOXEfS4aGD5V3jDyjKA2xINAqG+Cqp355xTqRyMsLTh1bXjsBwei9ORw==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x58ca820 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-4568-vsaht3.jpg>, @original_filename="pillow.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillow.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  app/controllers/listings_controller.rb:44:in `block in update'
+  app/controllers/listings_controller.rb:43:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (362.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 12:01:33 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OMcKmpoa3UMxlPdP58ZWfcOkAA/rvVVOXEfS4aGD5V3jDyjKA2xINAqG+Cqp355xTqRyMsLTh1bXjsBwei9ORw==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x4f91748 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-4568-aoy1ty.jpg>, @original_filename="pillow.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillow.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  app/controllers/listings_controller.rb:44:in `block in update'
+  app/controllers/listings_controller.rb:43:in `update'
+
+
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (364.0ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 12:04:59 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OMcKmpoa3UMxlPdP58ZWfcOkAA/rvVVOXEfS4aGD5V3jDyjKA2xINAqG+Cqp355xTqRyMsLTh1bXjsBwei9ORw==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x530d3f0 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-4568-146gm74.jpg>, @original_filename="pillow.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillow.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[35mListing Load (0.0ms)[0m  SELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/028dbbfa273d4b792baf487492f43a5d20160928-4568-1ymuoht.jpg"
+[paperclip] Content Type Spoof: Filename pillow.jpg (image/jpeg from Headers, ["image/jpeg"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/028dbbfa273d4b792baf487492f43a5d20160928-4568-1ayyg26.jpg"
+[paperclip] Content Type Spoof: Filename pillow.jpg (image/jpeg from Headers, ["image/jpeg"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (13.0ms)
+  Rendered listings/edit.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 296ms (Views: 265.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/custom.self-9321f144c1633c0819351644aeffc345d61ab3b80b636c4c1b2c2417727e6f50.css?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/scaffolds.self-75702cab89db32406324df686ff4ab93847fca3682413040261036eace28d1d2.css?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-09-28 12:04:59 -0500
+
+
+Started PATCH "/listings/2" for ::1 at 2016-09-28 12:05:03 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LHdqNyFs+Oojto2q7i23RxKYQi2+qti9u4UkyfPLOuT3v0hnuBptnRikgs+gNH9Ln5gwEJfECqUwTDZYKGeR/g==", "listing"=>{"name"=>"Couple Pillows", "description"=>"The base is a cream cotton with black fabric ink imprinted atop available in 16x16 with invisible zipper closure.", "price"=>"42.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x6d587f0 @tempfile=#<Tempfile:C:/Users/Topher/AppData/Local/Temp/RackMultipart20160928-4568-1gi2k5a.jpg>, @original_filename="pillow.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"pillow.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[36mListing Load (0.0ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/028dbbfa273d4b792baf487492f43a5d20160928-4568-8eo483.jpg"
+[paperclip] Content Type Spoof: Filename pillow.jpg (image/jpeg from Headers, ["image/jpeg"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+Command :: file -b --mime "C:/Users/Topher/AppData/Local/Temp/028dbbfa273d4b792baf487492f43a5d20160928-4568-wfnxst.jpg"
+[paperclip] Content Type Spoof: Filename pillow.jpg (image/jpeg from Headers, ["image/jpeg"] from Extension), content type discovered from file command: . See documentation to allow this combination.
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered listings/_form.html.erb (2.0ms)
+  Rendered listings/edit.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 105ms (Views: 87.4ms | ActiveRecord: 0.0ms)
