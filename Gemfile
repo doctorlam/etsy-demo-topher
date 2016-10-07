@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'tzinfo-data'
 gem "paperclip", "~> 5.0.0"
+gem 'devise'
 
 group :development, :test do
 	gem 'byebug'

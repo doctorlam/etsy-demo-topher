@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :users
+  devise_for :model_users
+  devise_for :views
   resources :listings
 
   get 'pages/about'
