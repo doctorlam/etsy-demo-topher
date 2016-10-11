@@ -7577,3 +7577,114 @@ Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-10-11 13:14:59 -0500
+
+
+Started GET "/listings/new" for ::1 at 2016-10-11 13:34:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#new as HTML
+  Rendered listings/_form.html.erb (14.6ms)
+  Rendered listings/new.html.erb within layouts/application (19.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_header.html.erb (36.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 433ms (Views: 407.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/custom.self-df43f7830397c5c6ae0106b11cef550db51da5006bb8186ef59be4712ad34af8.css?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/listings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/listings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-10-11 13:34:45 -0500
+
+
+Started POST "/listings" for ::1 at 2016-10-11 13:35:01 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AR70z74XGuDJCiyHg4TZ6njXAnmzWWePykqDUcMEM0HgDwsUzyCWD+eFsHy4D/JWFJICwR8WL3rPZ5XML9rm0Q==", "listing"=>{"name"=>"Test Listing", "description"=>"Test", "price"=>"1.21", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fb341d32c18 @tempfile=#<Tempfile:/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/RackMultipart20161011-48563-igx2l5.png>, @original_filename="NotFound.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"NotFound.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Create Listing"}
+Command :: file -b --mime '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/38c300f4fc9ce8a77aad4a30de05cad820161011-48563-2fe1t0.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/38c300f4fc9ce8a77aad4a30de05cad820161011-48563-1vb9mp5.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/38c300f4fc9ce8a77aad4a30de05cad820161011-48563-1vb9mp5.png[0]'
+Command :: convert '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/38c300f4fc9ce8a77aad4a30de05cad820161011-48563-1vb9mp5.png[0]' -auto-orient -resize "200" '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/c68850de75ab2853707e418f05c5403120161011-48563-15csrap'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/38c300f4fc9ce8a77aad4a30de05cad820161011-48563-1vb9mp5.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/38c300f4fc9ce8a77aad4a30de05cad820161011-48563-1vb9mp5.png[0]'
+Command :: convert '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/38c300f4fc9ce8a77aad4a30de05cad820161011-48563-1vb9mp5.png[0]' -auto-orient -resize "100x100>" '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/c68850de75ab2853707e418f05c5403120161011-48563-1lu7kas'
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/38/bk7ls2k96tz2mvpmfwjt7sfr0000gn/T/38c300f4fc9ce8a77aad4a30de05cad820161011-48563-b5tt0p.png'
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "listings" ("name", "description", "price", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Test Listing"], ["description", "Test"], ["price", 1.21], ["image_file_name", "NotFound.png"], ["image_content_type", "image/png"], ["image_file_size", 4736], ["image_updated_at", "2016-10-11 18:35:01.487535"], ["user_id", 5], ["created_at", "2016-10-11 18:35:01.617927"], ["updated_at", "2016-10-11 18:35:01.617927"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/listings/9
+Completed 302 Found in 140ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/listings/9" for ::1 at 2016-10-11 13:35:01 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mListing Load (0.1ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered listings/show.html.erb within layouts/application (5.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-10-11 13:35:03 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered listings/index.html.erb within layouts/application (15.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/listings/9" for ::1 at 2016-10-11 13:35:12 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uAz+ZHKJa9N2pD6VZPk1ssL2EukE090ZLQzLrjh/KZtZHQG/A77nPFgrom5fch4OrrMSUaiclewoId0z1KH8Cw==", "id"=>"9"}
+  [1m[36mListing Load (0.1ms)[0m  [1mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 9]]
+  [1m[35m (2.5ms)[0m  commit transaction
+[paperclip] deleting /Users/ChrisLam/Desktop/etsy-demo-topher/public/system/listings/images/000/000/009/original/NotFound.png
+[paperclip] deleting /Users/ChrisLam/Desktop/etsy-demo-topher/public/system/listings/images/000/000/009/medium/NotFound.png
+[paperclip] deleting /Users/ChrisLam/Desktop/etsy-demo-topher/public/system/listings/images/000/000/009/thumb/NotFound.png
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 8ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/listings" for ::1 at 2016-10-11 13:35:12 -0500
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.1ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered listings/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.3ms)
