@@ -6,4 +6,6 @@ class User < ActiveRecord::Base
    has_many :listings
 
    validates :name, presence:true
+
+   has_many :listings, dependent: :destroy
 end
